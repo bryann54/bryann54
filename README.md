@@ -10,18 +10,26 @@
 
 ## 🚀 About Me
 
-<div align="center">
+```dart
+class AlfredBrian extends FlutterDeveloper {
+  final String currentFocus = "Building scalable mobile applications";
+  final List<String> expertise = [
+    "Flutter & Dart",
+    "State Management (Bloc, Provider, Riverpod)",
+    "Firebase Integration",
+    "RESTful APIs",
+    "UI/UX Implementation"
+  ];
   
-**Mobile App Developer** passionate about creating beautiful, user-friendly applications 📱
-
-🎯 **What I Do:** I build mobile apps for Android and iOS using Flutter  
-💡 **My Focus:** Creating smooth, intuitive apps that people love to use  
-🌟 **Experience:** Specializing in modern app development and user interface design  
-📚 **Always Learning:** Currently expanding my skills in backend development  
-
-*I believe great apps should be both beautiful and functional - that's what drives my passion for mobile development!*
-
-</div>
+  final Map<String, String> currentlyLearning = {
+    "Backend": "Node.js & Dart Frog",
+    "Testing": "Advanced Flutter Testing",
+    "Architecture": "Clean Architecture Patterns"
+  };
+  
+  String getMotivation() => "Turning ideas into beautiful, performant mobile experiences! 🎯";
+}
+```
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
